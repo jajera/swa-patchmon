@@ -37,6 +37,14 @@
 		margin: 0 auto;
 	}
 
+	table {
+		border: 1px;
+	}
+
+	td {
+		text-align: left;
+	}
+
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
