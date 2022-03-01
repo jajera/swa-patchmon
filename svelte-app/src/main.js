@@ -7,7 +7,7 @@ const app = new App({
 	target: document.body,
 	props: {
 		header_content: 'Patch Monitor',
-		all_list_table: all_list_table
+		all_list_table: 'test'
 	}
 });
 
