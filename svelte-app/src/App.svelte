@@ -1,13 +1,13 @@
 <script>
 	export let header_content;
-  export let all_list_table;
+	export let all_list_table;
 </script>
 
 <main>
 	<h1>{header_content}</h1>
-  <div class='all_list'>
-    {all_list_table}
-  </div>
+  	<div class='all_list'>
+    	{all_list_table}
+  	</div>
 </main>
 
 <style>
@@ -16,7 +16,7 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-		align: center;
+		vertical-align: center;
 	}
 
 	table {
