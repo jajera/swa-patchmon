@@ -5,9 +5,6 @@
 
 <main>
 	<h1>{header_content}</h1>
-  	<div class='all_list'>
-    	{all_list_table}
-  	</div>
 </main>
 
 <style>
