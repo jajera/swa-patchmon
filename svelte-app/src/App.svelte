@@ -1,6 +1,5 @@
 <script>
 	export let header_content;
-	export let all_list_table;
 </script>
 
 <main>
