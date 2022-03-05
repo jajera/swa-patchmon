@@ -1,5 +1,6 @@
 <script>
 <<<<<<< HEAD
+<<<<<<< HEAD
   export let header_content;
   import AllList from "./AllList.svelte";
 </script>
@@ -34,10 +35,12 @@
   }
 =======
 	export let header_content;
+=======
+>>>>>>> b18dd15b9308e4f0073d586d5cbc99013f281b1b
 </script>
 
 <main>
-	<h1>{header_content}</h1>
+	<h1>Patch Monitor</h1>
   	<div class='all_list'>
 		<table>
 			<tr><td>Name</td><td>Version</td><td>Entry Date</td></tr>
