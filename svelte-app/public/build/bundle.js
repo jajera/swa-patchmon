@@ -628,6 +628,7 @@ var app = (function () {
     	let t6;
     	let t7;
     	let a;
+    	let t9;
     	let current;
     	document.title = title_value = /*AppName*/ ctx[0];
     	alllist = new AllList({ $$inline: true });
@@ -653,25 +654,26 @@ var app = (function () {
     			t7 = text(" | Dev: ");
     			a = element("a");
     			a.textContent = "jdcajera@gmail.com";
+    			t9 = text(" | Uses: Azure Static Web App, Azure DB Cosmos, Azure Web Function, GitHub, Python, Svelte, HTML, CSS");
     			attr_dev(meta, "name", "robots");
     			attr_dev(meta, "content", "noindex nofollow");
     			add_location(meta, file, 9, 2, 204);
     			attr_dev(html, "lang", "en");
     			add_location(html, file, 10, 2, 256);
-    			attr_dev(h1, "class", "svelte-1dx3ej5");
+    			attr_dev(h1, "class", "svelte-cvwxen");
     			add_location(h1, file, 15, 4, 311);
-    			attr_dev(main, "class", "svelte-1dx3ej5");
+    			attr_dev(main, "class", "svelte-cvwxen");
     			add_location(main, file, 14, 2, 300);
-    			attr_dev(body, "class", "svelte-1dx3ej5");
+    			attr_dev(body, "class", "svelte-cvwxen");
     			add_location(body, file, 13, 0, 291);
     			attr_dev(a, "href", "mailto:jdcajera@gmail.com");
-    			attr_dev(a, "class", "svelte-1dx3ej5");
+    			attr_dev(a, "class", "svelte-cvwxen");
     			add_location(a, file, 23, 33, 469);
-    			attr_dev(span, "class", "svelte-1dx3ej5");
+    			attr_dev(span, "class", "svelte-cvwxen");
     			add_location(span, file, 22, 4, 429);
-    			attr_dev(div, "class", "copyright svelte-1dx3ej5");
+    			attr_dev(div, "class", "copyright svelte-cvwxen");
     			add_location(div, file, 21, 2, 401);
-    			attr_dev(footer, "class", "footer svelte-1dx3ej5");
+    			attr_dev(footer, "class", "footer svelte-cvwxen");
     			add_location(footer, file, 20, 0, 375);
     		},
     		l: function claim(nodes) {
@@ -696,6 +698,7 @@ var app = (function () {
     			append_dev(span, t6);
     			append_dev(span, t7);
     			append_dev(span, a);
+    			append_dev(span, t9);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {

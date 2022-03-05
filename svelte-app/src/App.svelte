@@ -21,7 +21,7 @@
 <footer class="footer">
   <div class="copyright">
     <span>
-		Last update: {DateTime} | Dev: <a href="mailto:jdcajera@gmail.com">jdcajera@gmail.com</a>
+		Last update: {DateTime} | Dev: <a href="mailto:jdcajera@gmail.com">jdcajera@gmail.com</a> | Uses: Azure Static Web App, Azure DB Cosmos, Azure Web Function, GitHub, Python, Svelte, HTML, CSS
 	</span>
   </div>
 </footer>
@@ -37,8 +37,7 @@
 
   h1 {
     text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
+    font-size: 2em;
     font-weight: bold;
   }
 
