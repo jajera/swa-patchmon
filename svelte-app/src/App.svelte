@@ -1,9 +1,8 @@
 <script>
-	export let header_content;
 </script>
 
 <main>
-	<h1>{header_content}</h1>
+	<h1>Patch Monitor</h1>
   	<div class='all_list'>
 		<table>
 			<tr><td>Name</td><td>Version</td><td>Entry Date</td></tr>
