@@ -5,7 +5,7 @@
 <h3>All Patch List</h3>
 <table class="s-table">
     <thead>
-        <tr><th>Name</th><th>Version</th><th>Entry Date</th></tr>    
+        <tr><th>Name</th><th>Version</th><th>Date</th></tr>    
     </thead>
     <tbody>
         {#each data_all as { name, version, check_date }, i}
